@@ -1,6 +1,6 @@
 # QuickFinance (Hackers in the Bazaar Project 03)
 
-Link: [quickfinance.vercel.app](quickfinance.vercel.app)
+Link: [https://quickfinance.vercel.app](quickfinance.vercel.app)
 
 ## Purpose
 The inspiration for this site is educational websites like IXL, leetcode, and Khan Academy, with the hope of taking the best features of that website.

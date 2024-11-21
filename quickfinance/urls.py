@@ -5,6 +5,6 @@ from quickfinance.views import index, skills
 
 
 urlpatterns = [
-    path('/', index, name='index'),
+    path('', index, name='index'),
     path('skills/', skills, name='skills')
 ]

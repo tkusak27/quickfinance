@@ -4,14 +4,5 @@
       "src": "/(.*)",
       "dest": "api/wsgi.py"
     }
-  ], 
-  "builds": [
-    {
-      "src": "requirements.txt",
-      "use": "@vercel/python",
-      "config": {
-        "pythonVersion": "3.11"
-      }
-    }
   ]
 }

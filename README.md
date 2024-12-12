@@ -10,15 +10,16 @@ Currently, LeetCode exists for Computer Science majors to practice their coding 
 The primary purpose of this website is to provide an **interactive, almost "addicting" website where users can learn and refine their core finance skills**.
 
 ### Open Source
-Because I am *not* a business major, its safe to say I don't have the most robust knowledge of finance. This project utilizes a **Question Submission Portal**, where members of the QuickFinance community can submit questions to be peer reviewed and potentially added to the site:
-[https://github.com/tkusak27/quickfinance](Portal Link)
-
+Because I am *not* a business major, its safe to say I don't have the most robust knowledge of finance. This project utilizes a **Question Submission Portal**, where members of the QuickFinance community can submit questions to be peer reviewed and potentially added to the site: [Portal Link](https://github.com/tkusak27/quickfinance)
 
 ### Architecture
-My plan is to create this web application using Django as a backend, primarily because I have experience with it. Because I am trying to "gamify" learning, the frontend will be built using React, which I have less experience with it (hopefully learning a bit of js in paradigms will be of use). For the actual problem sets themselves, I have not decided how I plan to roll them out, although I figure I will need a database of sorts that allows concurrent reads (sqlite ruled out).
+Currently, the site relies on a Django backend, which uses the Django ```model``` class to instantiate Questions, Types, and Answers in the database.
 
-### Presentation
-I will be presenting this partly complete (1 skill, basic home page set up) project to my class in December. For the final presentation, I plan on including the following pieces to satisfy the requirements:
-* Demonstration of the site
-* A slideshow which includes steps on how to download the source code, make changes, and ideally a way to add new problems to the website
+The database is currently a ```sqlite``` database, which I know is ***unfit for production***, however it currently suits my needs. If I were to scale up, I would definitely switch dbs.
+
+The frontend utilizes ```vue```, which I do not have much experience with, although I have gotten a much better grasp on as of late.
+
+### Future Tasks
+Obviously, there is a *lot* left to implement. First and foremost, the user experience is nothing short of horrendous. Additionally, the file structure within this repository is terrible, and I will defintiely make future efforts to compartmentalize components of this repository. And lastly, a final goal is to continue iterating on the progress I have made, with a goal of getting to a functional website that at least 1 Notre Dame student finds helpful.
+
   
